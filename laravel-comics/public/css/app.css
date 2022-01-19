@@ -19,6 +19,10 @@ img {
   height: auto;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -103,4 +107,36 @@ img {
   border: none;
   font-weight: 800;
   margin: 3rem auto 0;
+}
+
+.main-footer {
+  padding: 3rem 0;
+  background-color: #303030;
+}
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer .container .list-box {
+  display: flex;
+  align-items: center;
+}
+.main-footer .container .list-box span {
+  color: #0b7bea;
+  margin-right: 0.5rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.main-footer .container .list-box ul {
+  display: flex;
+}
+.main-footer .container .list-box ul li {
+  margin-left: 1rem;
+}
+.main-footer .container button {
+  border: 2px solid #0b7bea;
+  background-color: transparent;
+  padding: 1rem 1rem;
+  color: #fff;
+  font-size: 1.2rem;
 }

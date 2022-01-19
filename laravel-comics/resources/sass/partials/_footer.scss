@@ -1,0 +1,31 @@
+.main-footer {
+    padding: 3rem 0;
+    background-color: $background-2;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .list-box {
+            display: flex;
+            align-items: center;
+            span {
+                color: $secondary-color;
+                margin-right: .5rem;
+                font-weight: $fw-1;
+                font-size: 1.2rem;
+            }
+            ul {
+                display: flex;
+                li {
+                    margin-left: 1rem;
+                }
+            }
+        }
+        button {
+            border: 2px solid $secondary-color;
+            background-color: transparent;
+            padding: 1rem 1rem;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    }
+}
