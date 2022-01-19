@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  color: #000;
+}
+body a {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+}
+.main-header .img-box {
+  margin-right: 3rem;
+}
+.main-header nav {
+  height: 130px;
+}
+.main-header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.main-header nav ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+.main-header nav ul li a {
+  transition: all 0.5s ease-in-out;
+}
+.main-header nav ul li:hover a {
+  color: #0b7bea;
+}
+.main-header nav ul li:hover {
+  border-bottom: 3px solid #0b7bea;
+}
+.main-header nav ul li.active {
+  border-bottom: 3px solid #0b7bea;
+}
+.main-header nav ul li.active a {
+  color: #0b7bea;
+}
+
+.main-comics {
+  background-color: #1c1c1c;
+  padding: 3rem 0 1.5rem;
+  border-bottom: 20px solid #0b7bea;
+}
+.main-comics .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-comics .cards .card {
+  width: 16.6666666667%;
+  padding: 0.7rem;
+}
+.main-comics .cards .card .img-box {
+  width: 100%;
+  height: 185px;
+}
+.main-comics .cards .card .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.main-comics .cards .card h4 {
+  color: #cbcbcb;
+  font-weight: 400;
+  margin: 1.2rem 0rem 2rem;
+}
+.main-comics button {
+  padding: 1rem 4rem;
+  background-color: #0b7bea;
+  color: #fff;
+  border: none;
+  font-weight: 800;
+  margin: 3rem auto 0;
+}
