@@ -1,7 +1,7 @@
 <header class="main-header container">
     <div class="img-box">
         <a href="{{ route('home') }}">
-            <img src=" {{ ('images/dc-logo.png') }}" alt="DC Logo">
+            <img src=" {{ asset('images/dc-logo.png') }}" alt="DC Logo">
         </a>
     </div>
 
