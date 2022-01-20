@@ -35,6 +35,9 @@ button {
 .main-header .img-box {
   margin-right: 3rem;
 }
+.main-header .img-box img {
+  width: 90%;
+}
 .main-header nav {
   height: 130px;
 }
@@ -73,7 +76,6 @@ button {
 .main-comics {
   background-color: #1c1c1c;
   padding: 3rem 0 1.5rem;
-  border-bottom: 20px solid #0b7bea;
 }
 .main-comics .cards {
   display: flex;
@@ -109,9 +111,117 @@ button {
   margin: 3rem auto 0;
 }
 
+.main-comic-detail {
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  color: #fff;
+}
+.main-comic-detail .container {
+  padding: 0 8rem;
+  height: 100%;
+}
+.main-comic-detail .container .card-box {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.main-comic-detail .container .card-box .box {
+  position: relative;
+  transform: translateY(50px);
+  border: 0.5px solid #fff;
+}
+.main-comic-detail .container .card-box .box img {
+  display: block;
+}
+.main-comic-detail .container .card-box .box span {
+  position: absolute;
+  font-size: 0.7rem;
+}
+.main-comic-detail .container .card-box .box .comic-book {
+  top: 0;
+  left: 0;
+  background-color: #01a8d9;
+  color: #fff;
+  padding: 0.3rem 0.3rem;
+}
+.main-comic-detail .container .card-box .box .gallery {
+  bottom: 0;
+  background-color: #01a8d9;
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem 0;
+}
+
+.main-comic-detail-2 {
+  border-top: 70px solid #0b7bea;
+  height: 550px;
+}
+.main-comic-detail-2 .container {
+  padding: 0 8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-comic-detail-2 .container .info-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-comic-detail-2 .container .info-box .info-1 {
+  width: 70%;
+  padding-right: 50px;
+}
+.main-comic-detail-2 .container .info-box .info-1 p {
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+  color: gray;
+}
+.main-comic-detail-2 .container .info-box .info-1 .green-bar {
+  background-color: #54ba57;
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-comic-detail-2 .container .info-box .info-1 .green-bar .div-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 0.5rem;
+  border-right: 2px solid green;
+}
+.main-comic-detail-2 .container .info-box .info-1 .green-bar span {
+  color: rgba(255, 255, 255, 0.516);
+}
+.main-comic-detail-2 .container .info-box .info-1 .green-bar .text-white {
+  color: #fff;
+}
+.main-comic-detail-2 .container .info-box .info-1 .green-bar .div-2 {
+  padding: 0.5rem;
+  text-align: center;
+}
+.main-comic-detail-2 .container .info-box .adv-box {
+  display: flex;
+  position: relative;
+  width: 30%;
+}
+.main-comic-detail-2 .container .info-box .adv-box .adv {
+  position: absolute;
+  top: -20px;
+  left: 63%;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #7d7d7d;
+}
+
 .main-footer {
   padding: 3rem 0;
   background-color: #303030;
+  border-top: 20px solid #0b7bea;
 }
 .main-footer .container {
   display: flex;

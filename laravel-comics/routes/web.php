@@ -38,7 +38,6 @@ Route::get('/comic/{id}', function($id) {
     } else {
         abort(404);
     }
-
     return view('comic-detail', [
         'comic' => $comic, 
     ]);

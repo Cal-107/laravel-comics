@@ -1,0 +1,108 @@
+.main-comic-detail {
+    background-image: url('/images/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:550px;
+    color: #fff;
+    .container {
+        padding: 0 8rem;
+        height: 100%;
+        .card-box {
+            display: flex;
+            align-items: flex-end;
+            height: 100%;
+            .box {
+                position: relative;
+                transform: translateY(50px);
+                border: .5px solid #fff;
+                img {
+                    display: block;
+                }
+                span {
+                    position: absolute;
+                    font-size: 0.7rem;
+                }
+                .comic-book {
+                    top: 0;
+                    left: 0;
+                    background-color: #01a8d9;
+                    color: #fff;
+                    padding: .3rem .3rem;
+
+                }
+                .gallery {
+                    bottom: 0;
+                    background-color: #01a8d9;
+                    width: 100%;
+                    text-align: center;
+                    padding: .3rem 0;
+                }
+            }
+        }
+    }
+}
+
+.main-comic-detail-2 {
+    border-top: 70px solid $secondary-color;
+    height:550px;
+    .container {
+        padding: 0 8rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .info-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .info-1 {
+                width: 70%;
+                padding-right: 50px;
+                p {
+                    font-size: .85rem;
+                    line-height: 1.3rem;
+                    color: gray;
+                }
+                .green-bar {
+                    background-color: #54ba57;
+                    color: #fff;
+                    font-size: .8rem;
+                    margin: 1rem 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .div-1 {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-grow: 1;
+                        padding: .5rem;
+                        border-right: 2px solid green;
+                    }
+                    span {
+                        color: rgba(255, 255, 255, 0.516);
+                    }
+                    .text-white {
+                        color: #fff;
+                    }
+                    .div-2 {
+                        padding: 0.5rem;
+                       
+                        text-align: center;
+                    }
+                }
+            }
+            .adv-box {
+                display: flex;
+                position: relative;
+                width: 30%;
+                .adv {
+                    position: absolute;
+                    top: -20px;
+                    left: 63%;
+                    font-size: 0.8rem;
+                    font-weight: $fw-1;
+                    color: rgb(125, 125, 125);
+                }
+            }
+        }
+    }
+}
